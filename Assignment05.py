@@ -71,7 +71,6 @@ while True:
             print(e)
             print('------Technical Error Message-------')
             print(e.__doc__)
-            print(e.__str__())
         except Exception as e:
             print('------Non-Specific Error--------')
             print('------Technical Error Message-------')
